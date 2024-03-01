@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Button, StyleSheet, TextInput, View, Image, Text, Alert } from 'react-native';
 import { addUser } from './userAPI';
+
 export default function AddScreen({route,navigation}) {
     const {loadData} = route.params;
     const [addAvatar, setaddAvatar] = useState();
